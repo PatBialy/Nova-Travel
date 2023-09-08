@@ -1,0 +1,14 @@
+:root {
+  --primary-light-blue: #87cefa;
+  --primary-dark-blue: #00008b;
+  --text-white: #ffffff;
+}
+
+.text-color {
+  color: var(--text-white);
+}
+
+.navbar {
+  background-color: var(--primary-light-blue);
+  color: var(--text-white);
+}

@@ -1,0 +1,94 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.aboutContainer {
+  max-width: 800px;
+  margin: 35px auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  background: linear-gradient(#4dc5ed, #0178b9);
+  color: white;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.aboutSection {
+  margin-bottom: 40px;
+}
+
+.aboutSection h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.aboutSection p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.teamMembers {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.teamMember {
+  flex: 1;
+  max-width: 250px;
+  text-align: center;
+}
+
+.teamMemberImage {
+  max-width: 75%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.teamMember h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #f2f2f2;
+}
+
+.teamMember p {
+  font-size: 1rem;
+  color: #f2f2f2;
+}
+
+.aboutSection ul {
+  text-align: left;
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #f2f2f2;
+}
+
+.aboutSection a {
+  color: #4dc5ed;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.aboutSection a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .aboutContainer {
+    margin: 22px;
+  }
+
+  .teamMemberImage {
+    max-width: 50%;
+  }
+}

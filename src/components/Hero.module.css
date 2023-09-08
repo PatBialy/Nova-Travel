@@ -1,0 +1,69 @@
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://www.travelandleisure.com/thmb/wsA6EXFuYkqtuJGLbQWw05-cwPs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/lake-como-MOSTBEAUTIFUL0921-cb08f3beff1041e4beefc67b5e956b23.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.heroTitle {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.heroSubtitle {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.heroSubtitle2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.ctaButton {
+  background-color: var(--primary-dark-blue);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+}
+
+.ctaButton:hover {
+  background-color: var(--primary-light-blue);
+}
+
+@media screen and (max-width: 768px) {
+  .heroTitle {
+    position: relative !important;
+    top: -20px !important;
+    font-size: 3.9rem;
+  }
+  .heroSubtitle {
+    position: relative !important;
+    top: -20px !important;
+    /* font-size: 1.6rem; */
+  }
+
+  .ctaButton {
+    font-size: 1.5rem !important;
+  }
+}

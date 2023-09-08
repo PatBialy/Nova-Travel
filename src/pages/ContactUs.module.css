@@ -1,0 +1,129 @@
+.contactContainer {
+  background: linear-gradient(#4dc5ed, #0178b9);
+  color: white;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactTitle {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  padding: 20px 0;
+}
+.contactTitle2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.contactInfo {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  line-height: 1.5;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  color: #4dc5ed;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.6rem;
+}
+
+.contactInfo p {
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.officeHoursList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.officeHoursList li {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+.socialIcons a {
+  color: #4dc5ed;
+  font-size: 1.6rem;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.socialIcons a:hover {
+  color: #0178b9;
+}
+
+.emailLink {
+  font-weight: bold;
+  text-decoration: none;
+  color: #4dc5ed;
+  transition: color 0.3s;
+}
+
+.emailLink:hover {
+  color: #0178b9;
+}
+.image {
+  width: 50%;
+  height: 80%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s;
+  margin-top: -250px;
+}
+
+@media screen and (max-width: 768px) {
+  .contactContainer {
+    background: linear-gradient(#4dc5ed, #0178b9);
+    color: white;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+  }
+
+  .image {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s;
+    margin-top: -200px;
+  }
+  .contactTitle2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
