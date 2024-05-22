@@ -16,8 +16,8 @@
 }
 
 .cardImage {
-  width: auto;
-  height: 100%;
+  width: 100%; /* Changed from auto to 100% */
+  height: auto; /* Changed from 100% to auto */
   object-fit: cover;
 }
 

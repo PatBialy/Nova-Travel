@@ -17,6 +17,16 @@ import ak6 from "../assets/ak6.JPG";
 import ak7 from "../assets/ak7.JPG";
 import ak8 from "../assets/ak8.JPG";
 import ak9 from "../assets/ak9.JPG";
+import it1 from "../assets/it1.JPG";
+import it2 from "../assets/ak2.JPG";
+import it3 from "../assets/ak3.JPG";
+import it4 from "../assets/ak4.JPG";
+import it5 from "../assets/ak5.JPG";
+import it6 from "../assets/ak6.JPG";
+import it7 from "../assets/ak7.JPG";
+import it8 from "../assets/ak8.JPG";
+import it9 from "../assets/ak9.JPG";
+import it10 from "../assets/it10.JPG";
 
 export const tours = [
   {
@@ -50,11 +60,12 @@ export const tours = [
   },
   {
     id: 3,
-    title: "",
-    description: "Discover the wonders of Asia...",
-    date: "July 10, 2024 - July 25, 2024",
-    price: "$4000",
-    images: ["/images/asia1.jpg", "/images/asia2.jpg", "/images/asia3.jpg"],
+    title: "Exclusive Tuscany Women's Journey",
+    description:
+      "Experience the allure of Tuscany, Italy's most enchanting region...",
+    date: "June 2nd, 2024",
+    price: "$2250",
+    images: [it1, it2, it3, it4, it5, it6, it7, it8, it9, it10],
     itinerary: "Day 1: Arrival in Tokyo...\nDay 2: Exploring Tokyo...",
   },
   {
