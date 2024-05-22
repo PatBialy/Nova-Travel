@@ -16,7 +16,6 @@ const About = () => {
               className={styles.teamMemberImage}
             />
             <h3>Zosia Bialy</h3>
-            <p>CEO</p>
           </div>
         </div>
       </section>
