@@ -20,7 +20,7 @@ const TourDetails = () => {
             key={index}
             src={image}
             alt={`${tour.title} ${index + 1}`}
-            className={styles.image}
+            className={styles.galleryImage}
           />
         ))}
       </div>

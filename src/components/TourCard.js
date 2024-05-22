@@ -5,7 +5,7 @@ import styles from "./TourCard.module.css";
 const TourCard = ({ tour }) => {
   return (
     <div className={styles.card}>
-      <img src={tour.images[0]} alt={tour.title} className={styles.image} />
+      <img src={tour.images[0]} alt={tour.title} className={styles.cardImage} />
       <div className={styles.content}>
         <h2>{tour.title}</h2>
         <p>{tour.description}</p>
