@@ -36,7 +36,7 @@ const About = () => {
       </section>
 
       <section className={styles.aboutSection}>
-        <h2>Our Story</h2>
+        <h2>My Story</h2>
         <p>
           Zosia Bialy is a renowned figure in the travel industry, renowned for
           her expertise in connecting travelers with exceptional destinations,

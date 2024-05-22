@@ -8,6 +8,15 @@ import swiss7 from "../assets/swiss7.JPG";
 import swiss8 from "../assets/swiss8.JPG";
 import swiss9 from "../assets/swiss9.JPG";
 import swiss10 from "../assets/swiss10.JPG";
+import ak1 from "../assets/ak1.JPG";
+import ak2 from "../assets/ak2.JPG";
+import ak3 from "../assets/ak3.JPG";
+import ak4 from "../assets/ak4.JPG";
+import ak5 from "../assets/ak5.JPG";
+import ak6 from "../assets/ak6.JPG";
+import ak7 from "../assets/ak7.JPG";
+import ak8 from "../assets/ak8.JPG";
+import ak9 from "../assets/ak9.JPG";
 
 export const tours = [
   {
@@ -32,16 +41,16 @@ export const tours = [
   },
   {
     id: 2,
-    title: "Exotic Asia",
-    description: "Discover the wonders of Asia...",
+    title: "Alaska in Summer",
+    description: "8 Days Among Pristine Nature...",
     date: "July 10, 2024 - July 25, 2024",
     price: "$4000",
-    images: ["/images/asia1.jpg", "/images/asia2.jpg", "/images/asia3.jpg"],
+    images: [ak1, ak2, ak3, ak4, ak5, ak6, ak7, ak8, ak9],
     itinerary: "Day 1: Arrival in Tokyo...\nDay 2: Exploring Tokyo...",
   },
   {
     id: 3,
-    title: "Exotic Asia",
+    title: "",
     description: "Discover the wonders of Asia...",
     date: "July 10, 2024 - July 25, 2024",
     price: "$4000",
