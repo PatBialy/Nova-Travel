@@ -27,6 +27,16 @@ import it7 from "../assets/ak7.JPG";
 import it8 from "../assets/ak8.JPG";
 import it9 from "../assets/ak9.JPG";
 import it10 from "../assets/it10.JPG";
+import hw1 from "../assets/hw1.JPG";
+import hw2 from "../assets/hw2.JPG";
+import hw3 from "../assets/hw3.JPG";
+import hw4 from "../assets/hw4.JPG";
+import hw5 from "../assets/hw5.JPG";
+import hw6 from "../assets/hw6.JPG";
+import hw7 from "../assets/hw7.JPG";
+import hw8 from "../assets/hw8.JPG";
+import hw9 from "../assets/hw9.JPG";
+import hw10 from "../assets/hw10.JPG";
 
 export const tours = [
   {
@@ -70,11 +80,11 @@ export const tours = [
   },
   {
     id: 4,
-    title: "Exotic Asia",
-    description: "Discover the wonders of Asia...",
-    date: "July 10, 2024 - July 25, 2024",
-    price: "$4000",
-    images: ["/images/asia1.jpg", "/images/asia2.jpg", "/images/asia3.jpg"],
+    title: "Experience Hawaii: Maui, Oahu",
+    description: "Discover the unique natural beauty of Hawaii...",
+    date: " June 12th, 2024",
+    price: "$1995",
+    images: [hw1, hw2, hw3, hw4, hw5, hw6, hw7, hw8, hw9, hw10],
     itinerary: "Day 1: Arrival in Tokyo...\nDay 2: Exploring Tokyo...",
   },
   {
