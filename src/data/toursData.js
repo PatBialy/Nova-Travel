@@ -37,6 +37,16 @@ import hw7 from "../assets/hw7.JPG";
 import hw8 from "../assets/hw8.JPG";
 import hw9 from "../assets/hw9.JPG";
 import hw10 from "../assets/hw10.JPG";
+import bb1 from "../assets/bb1.JPG";
+import bb2 from "../assets/bb2.JPG";
+import bb3 from "../assets/bb3.JPG";
+import bb4 from "../assets/bb4.JPG";
+import bb5 from "../assets/bb5.JPG";
+import bb6 from "../assets/bb6.JPG";
+import bb7 from "../assets/bb7.JPG";
+import bb8 from "../assets/bb8.JPG";
+import bb9 from "../assets/bb9.JPG";
+import bb10 from "../assets/bb10.JPG";
 
 export const tours = [
   {
@@ -89,11 +99,11 @@ export const tours = [
   },
   {
     id: 5,
-    title: "Exotic Asia",
+    title: " Dive into Paradise: Explore Bora Bora",
     description: "Discover the wonders of Asia...",
     date: "July 10, 2024 - July 25, 2024",
     price: "$4000",
-    images: ["/images/asia1.jpg", "/images/asia2.jpg", "/images/asia3.jpg"],
+    images: [bb1, bb2, bb3, bb4, bb5, bb6, bb7, bb8, bb9, bb10],
     itinerary: "Day 1: Arrival in Tokyo...\nDay 2: Exploring Tokyo...",
   },
   {
