@@ -2,24 +2,32 @@
   padding: 20px;
 }
 
+.details {
+  margin-bottom: 20px;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: center;
 }
 
 .imageContainer {
   width: calc(50% - 10px);
   height: 200px;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 5px;
 }
 
-.galleryImage {
+.image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .imageContainer {
+    width: calc(100% - 10px);
+  }
 }

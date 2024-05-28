@@ -47,6 +47,18 @@ import bb7 from "../assets/bb7.JPG";
 import bb8 from "../assets/bb8.JPG";
 import bb9 from "../assets/bb9.JPG";
 import bb10 from "../assets/bb10.JPG";
+import co1 from "../assets/co1.JPG";
+import co2 from "../assets/co2.JPG";
+import co3 from "../assets/co3.JPG";
+import co4 from "../assets/co4.jpg";
+import co5 from "../assets/co5.JPG";
+import co6 from "../assets/co6.JPG";
+import co7 from "../assets/co7.JPG";
+import co8 from "../assets/co8.WEBP";
+import co9 from "../assets/co9.JPG";
+import co10 from "../assets/co10.JPG";
+import co11 from "../assets/co11.JPG";
+import co12 from "../assets/co12.jpg";
 
 export const tours = [
   {
@@ -108,11 +120,12 @@ export const tours = [
   },
   {
     id: 6,
-    title: "Exotic Asia",
-    description: "Discover the wonders of Asia...",
+    title: "Colombia with the Amazon",
+    description:
+      "Experience the rich culture and breathtaking landscapes of Colombia...",
     date: "July 10, 2024 - July 25, 2024",
     price: "$4000",
-    images: ["/images/asia1.jpg", "/images/asia2.jpg", "/images/asia3.jpg"],
+    images: [co1, co2, co3, co4, co5, co6, co7, co8, co9, co10, co11, co12],
     itinerary: "Day 1: Arrival in Tokyo...\nDay 2: Exploring Tokyo...",
   },
 ];

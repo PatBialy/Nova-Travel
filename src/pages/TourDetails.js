@@ -1,3 +1,4 @@
+// src/pages/TourDetails.js
 import React from "react";
 import { useParams } from "react-router-dom";
 import { tours } from "../data/toursData";
@@ -7,27 +8,34 @@ const TourDetails = () => {
   const { id } = useParams();
   const tour = tours.find((t) => t.id === parseInt(id));
 
-  if (!tour) {
-    return <h2>Tour not found</h2>;
-  }
+  if (!tour) return <div>Tour not found</div>;
 
   return (
     <div className={styles.container}>
       <h1>{tour.title}</h1>
+      <div className={styles.details}>
+        <p>
+          <strong>Date:</strong> {tour.date}
+        </p>
+        <p>
+          <strong>Price:</strong> {tour.price}
+        </p>
+        <p>
+          <strong>Itinerary:</strong>
+        </p>
+        <pre>{tour.itinerary}</pre>
+      </div>
       <div className={styles.gallery}>
         {tour.images.map((image, index) => (
-          <img
-            key={index}
-            src={image}
-            alt={`${tour.title} ${index + 1}`}
-            className={styles.galleryImage}
-          />
+          <div key={index} className={styles.imageContainer}>
+            <img
+              src={image}
+              alt={`${tour.title} ${index + 1}`}
+              className={styles.image}
+            />
+          </div>
         ))}
       </div>
-      <p>{tour.date}</p>
-      <p>{tour.price}</p>
-      <h2>Itinerary</h2>
-      <pre>{tour.itinerary}</pre>
     </div>
   );
 };

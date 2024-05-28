@@ -1,3 +1,4 @@
+// src/components/TourCard.js
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./TourCard.module.css";
@@ -5,12 +6,17 @@ import styles from "./TourCard.module.css";
 const TourCard = ({ tour }) => {
   return (
     <div className={styles.card}>
-      <img src={tour.images[0]} alt={tour.title} className={styles.cardImage} />
+      <div className={styles.imageContainer}>
+        <img
+          src={tour.images[0]} // Assuming the first image is used as the card image
+          alt={tour.title}
+          className={styles.cardImage}
+        />
+      </div>
       <div className={styles.content}>
         <h2>{tour.title}</h2>
-        <p>{tour.description}</p>
-        <p>{tour.date}</p>
-        <p>{tour.price}</p>
+        <p>Date: {tour.date}</p>
+        <p>Price: {tour.price}</p>
         <Link to={`/tours/${tour.id}`} className={styles.link}>
           View Details
         </Link>
