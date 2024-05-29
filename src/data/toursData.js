@@ -18,14 +18,14 @@ import ak7 from "../assets/ak7.JPG";
 import ak8 from "../assets/ak8.JPG";
 import ak9 from "../assets/ak9.JPG";
 import it1 from "../assets/it1.JPG";
-import it2 from "../assets/ak2.JPG";
-import it3 from "../assets/ak3.JPG";
-import it4 from "../assets/ak4.JPG";
-import it5 from "../assets/ak5.JPG";
-import it6 from "../assets/ak6.JPG";
-import it7 from "../assets/ak7.JPG";
-import it8 from "../assets/ak8.JPG";
-import it9 from "../assets/ak9.JPG";
+import it2 from "../assets/it2.JPG";
+import it3 from "../assets/it3.JPG";
+import it4 from "../assets/it4.JPG";
+import it5 from "../assets/it5.JPG";
+import it6 from "../assets/it6.JPG";
+import it7 from "../assets/it7.JPG";
+import it8 from "../assets/it8.JPG";
+import it9 from "../assets/it9.JPG";
 import it10 from "../assets/it10.JPG";
 import hw1 from "../assets/hw1.JPG";
 import hw2 from "../assets/hw2.JPG";
@@ -103,15 +103,18 @@ export const tours = [
   {
     id: 4,
     title: "Experience Hawaii: Maui, Oahu",
-    description: "Discover the unique natural beauty of Hawaii...",
-    date: " June 12th, 2024",
+    description:
+      "Get ready to dive into the heart of Hawaii's unparalleled natural beauty and rich cultural tapestry with Nova Travel's exclusive Hawaiian adventure. Each day promises a new and captivating experience, allowing Hawaii to unveil its true splendor to you. Imagine unforgettable moments, vivid impressions, and breathtaking landscapes—this is the journey of a lifetime. Join us and let Hawaii whisk you away on an unforgettable odyssey!\n\nDiscover the Wonders of Hawaii:\nPearl Harbor: Step into history at this iconic naval base, a symbol of a pivotal moment in American history. Explore the memorials and museums that honor the courage and resilience of those who were there.\nOahu: Experience the vibrant heart of Hawaii where cultures and traditions converge. Wander through Honolulu, a city that buzzes with life, offering everything from modern shopping malls to charming historic districts.\nWaikiki: Bask in the sun at this world-famous district on Oahu's south coast. Its stunning beaches and Pacific waves are a haven for surfers and beach lovers alike.\nNorth Shore: Embrace the thrill of the ultimate surfing destination. Known for its colossal winter waves, the North Shore is a playground for professional and amateur surfers seeking the ride of their lives.\nPolynesian Cultural Center: Immerse yourself in the living history of Polynesia. Located on Oahu's North Shore, this family-friendly attraction offers a deep dive into the cultures and traditions of the Pacific islands.\nCatamaran Cruise on Waikiki Bay: Set sail on a sensory feast. This isn’t just a cruise; it's an enchanting voyage, especially at sunset when the sky is painted with warm, golden hues.\nMaui: Escape to one of Hawaii's most stunning islands. Maui is renowned for its pristine white beaches, azure waters, and the majestic Haleakalā volcano, where sunrises are nothing short of magical.",
+    date: "2024-06-12",
     price: "$1995",
     images: [hw1, hw2, hw3, hw4, hw5, hw6, hw7, hw8, hw9, hw10],
-    itinerary: "Day 1: Arrival in Tokyo...\nDay 2: Exploring Tokyo...",
+    itinerary:
+      "Experience the Magic of Hawaii with Nova Travel: Your Ultimate Hawaiian Adventure!\n\nDay 1: Arrival and Waikiki Wonders\n\nTransfer and Hotel Accommodation: Upon landing at Oahu airport, our friendly local guide will whisk you away to your hotel. After a smooth check-in, take a moment to relax and acclimatize.\n\nExplore Waikiki: Spend the rest of your day in the iconic Waikiki. Stroll along its famous beaches, capture stunning sunset photos, and savor the local cuisine. Waikiki’s magical ambiance will make you fall in love with Hawaii right from the start.\n\nDinner and Overnight Stay: Enjoy an authentic Hawaiian dinner at a local restaurant. After a delightful meal, unwind and rest at your hotel, dreaming about the adventures ahead.\n\nDay 2: Historic Pearl Harbor and Royal Honolulu\n\nPearl Harbor and Iolani Palace: Embark on a journey through time at Pearl Harbor. Visit the USS Arizona Memorial and learn about the pivotal moments of World War II. Continue to downtown Honolulu to explore Iolani Palace, the only royal palace in the USA, and marvel at historic landmarks like the King Kamehameha statue and the coral-built basilica.\n\nCatamaran Cruise and Waikiki Evening: End your day with a magical catamaran cruise on Waikiki Bay, sipping a Mai Tai as the sun sets. Afterward, enjoy free time for dinner and a leisurely evening stroll along Kalakaua Avenue.\n\nDay 3: Maui’s Majestic Beauty\n\nIsland Hop to Maui: Take an early flight to Maui, considered the most romantic of the Hawaiian islands. Discover its pristine beaches, stunning volcanoes, and scenic routes.\n\nRoad to Hana: Drive along the breathtaking Road to Hana, stopping at honu turtle beaches, rainbow trees, and waterfalls. Visit the unique red and black sand beaches and, if conditions permit, witness a spectacular sunset from a volcano.\n\nEvening Return to Oahu: Fly back to Oahu for a restful night at your hotel. Note: This trip is optional and comes with an additional fee. For those who opt out, enjoy a relaxing day in Waikiki.\n\nDay 4: North Shore Adventures\n\nNorth Shore and Dole Plantation: Begin your day at the famous Dole Plantation, sampling fresh pineapples and souvenirs. Head to Haleiwa, the surfing mecca, and indulge in Hawaiian shave ice.\n\nWaimea Bay Beach: Relax on the picturesque Waimea Bay Beach, where you can sunbathe, play volleyball, and watch surfers. After a delightful lunch in Haleiwa, return to your hotel for a relaxing evening.\n\nDay 5: Polynesian Cultural Extravaganza\n\nPolynesian Cultural Center: Start your day with the famous 'malasadas' donuts, then drive through scenic routes to the Polynesian Cultural Center. Dive into the rich cultures of the Pacific islands through traditional dances, rituals, and crafts.\n\nHawaiian Dinner and Torch Show: Enjoy a Hawaiian dinner and be mesmerized by the night show featuring torch dances and Polynesian traditions. Return to your hotel with memories of a day filled with cultural wonders.\n\nDay 6: East Coast and Diamond Head\n\nDiamond Head Hike: Begin your day with a climb up Diamond Head for breathtaking views of Waikiki Beach and the Pacific Ocean.\n\nScenic Coastal Drive: Drive along the cliffside roads, stopping at Halona Blow Hole and Makapu Lookout. Experience the local life in Waimanalo and relax on picturesque East Coast beaches.\n\nKailua and Waimanalo: Enjoy water activities or simply unwind at the beach. Later, savor local specialties in Kailua before returning to your hotel for a restful evening.\n\nDay 7: Cultural Immersion and Last Moments\n\nBishop Museum and Aloha Tower: Visit the Bishop Museum for an in-depth look at Hawaiian culture. Explore Aloha Tower, Chinatown, and the Ala Moana Center.\n\nFree Time and Departure: Spend your last moments shopping for souvenirs or relaxing on the beach before preparing for your departure.",
   },
+
   {
     id: 5,
-    title: " Dive into Paradise: Explore Bora Bora",
+    title: "Dive into Paradise: Explore Bora Bora",
     description: "Discover the wonders of Asia...",
     date: "July 10, 2024 - July 25, 2024",
     price: "$4000",

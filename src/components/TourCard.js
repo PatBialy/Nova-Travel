@@ -8,7 +8,7 @@ const TourCard = ({ tour }) => {
     <div className={styles.card}>
       <div className={styles.imageContainer}>
         <img
-          src={tour.images[0]} // Assuming the first image is used as the card image
+          src={tour.images[1]} // Assuming the first image is used as the card image
           alt={tour.title}
           className={styles.cardImage}
         />

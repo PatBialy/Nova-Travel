@@ -1,19 +1,25 @@
-// src/pages/TourDetails.js
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Modal from "react-modal";
 import { tours } from "../data/toursData";
 import styles from "./TourDetails.module.css";
+
+Modal.setAppElement("#root"); // to avoid accessibility issues
 
 const TourDetails = () => {
   const { id } = useParams();
   const tour = tours.find((t) => t.id === parseInt(id));
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   if (!tour) return <div>Tour not found</div>;
-
-  const isMobile = window.innerWidth <= 768;
 
   const openModal = (image) => {
     if (!isMobile) {
@@ -29,21 +35,56 @@ const TourDetails = () => {
 
   return (
     <div className={styles.container}>
-      <h1>{tour.title}</h1>
+      <h1 className={styles.title}>{tour.title}</h1>
       <div className={styles.details}>
         <p className={styles.description}>
-          <strong>Description:</strong> {tour.description}
+          <strong>Description:</strong>{" "}
+          <span
+            style={{
+              color: "#2ebdec",
+              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.15)",
+              fontFamily: "Roboto, sans-serif",
+            }}
+          >
+            {tour.description}
+          </span>
         </p>
-        <p>
-          <strong>Date:</strong> {tour.date}
+        <p className={styles.date}>
+          <strong>Date:</strong>{" "}
+          <span
+            style={{
+              color: "#2ebdec",
+              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.15)",
+              fontFamily: "Roboto, sans-serif",
+            }}
+          >
+            {tour.date}
+          </span>
         </p>
-        <p>
-          <strong>Price:</strong> {tour.price}
+        <p className={styles.price}>
+          <strong>Price:</strong>{" "}
+          <span
+            style={{
+              color: "#2ebdec",
+              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.15)",
+              fontFamily: "Roboto, sans-serif",
+            }}
+          >
+            {tour.price}
+          </span>
         </p>
-        <p>
+        <p className={styles.itinerary}>
           <strong>Itinerary:</strong>
         </p>
-        <pre>{tour.itinerary}</pre>
+        <pre
+          style={{
+            color: "#2ebdec",
+            textShadow: "2px 2px 4px rgba(0, 0, 0, 0.15)",
+            fontFamily: "Roboto, sans-serif",
+          }}
+        >
+          {tour.itinerary}
+        </pre>
       </div>
       <div className={styles.gallery}>
         {tour.images.map((image, index) => (
@@ -69,7 +110,7 @@ const TourDetails = () => {
         overlayClassName={styles.overlay}
       >
         <button onClick={closeModal} className={styles.closeButton}>
-          Close
+          &times;
         </button>
         {selectedImage && (
           <img
